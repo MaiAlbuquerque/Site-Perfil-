@@ -1,0 +1,459 @@
+:root,
+[data-bs-theme=light] {
+    --bs-primary-rgb: 242, 187, 207;
+}
+
+:root,
+[data-bs-theme=light] {
+    --bs-secondary-rgb: 4, 191, 173;
+}
+
+/* menu*/
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar-nav li a {
+    color: #04BFAD;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.navbar-nav li a:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+/* header*/
+header {
+    font-family: 'Handjet', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.hh1 {
+    font-size: 3.5rem;
+}
+
+.blocofotobanner {
+    width: 100%;
+}
+
+.img-fluidheader {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Página inteira*/
+main,
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*main textos*/
+
+main h1 {
+    font-size: 2.5rem;
+}
+
+main h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #04BFAD;
+
+}
+
+main h3 {
+    font-size: 0.75rem;
+    font-family: 'Roboto', sans-serif;
+    color: #04BFAD;
+}
+
+main p {
+    font-size: 1.25rem;
+    margin-right: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    line-height: 2.5rem;
+}
+
+
+/*main detalhes*/
+.details {
+    background-color: #ffffff;
+    padding: 3rem;
+}
+
+/*main sobre*/
+
+
+.sublinhado2 {
+    text-align: center;
+    padding-bottom: 2px;
+    /* Adicione espaçamento abaixo do texto */
+    border-bottom: 2px solid #04BFAD;
+    /* Adicione uma borda para criar o sublinhado */
+    display: inline;
+
+}
+
+.about {
+    background-color: #ffffff;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.caixaimagem {
+    width: 50%;
+}
+
+.imagemsobre {
+    width: 100%;
+}
+
+.caixatexto {
+    width: 50%;
+    color: #04BFAD;
+    width: 100%;
+}
+
+.paragrafosobre {
+    text-align: justify;
+    color: #04BFAD;
+
+}
+
+
+
+/*Icones*/
+
+.iconsdet {
+
+    font-size: 4rem;
+    color: #04BFAD;
+}
+
+.iconsdet2 {
+
+    font-size: 2.5rem;
+    color: #ffffff;
+    gap: 2rem;
+    padding: 1.5rem;
+}
+
+/*Responsividade*/
+
+@media (max-width: 1400px) {
+    .col-md-1 {
+        padding: 3.5rem;
+    }
+
+    .imagemsobre {
+        margin-bottom: 0px;
+    }
+
+    .about {
+        padding: 2.5rem;
+    }
+}
+
+@media (max-width: 1353px) {
+    .imagemsobre {
+        width: 100%;
+    }
+
+    .sublinhado-bootstrap {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1238px) {
+    .grupodetalhes {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1200px) {
+    .caixasobre {
+        padding-right: 2rem;
+        margin-right: 2rem;
+    }
+
+    .container-fluid.text-start {
+        width: 100%;
+        margin-top: 10px;
+        /* Ajuste conforme necessário */
+    }
+}
+
+@media (max-width: 1100px) {
+    .col-md-1 {
+        flex-basis: 17%;
+        max-width: 30%;
+        align-items: center;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .hh1 {
+
+        font-size: 2.8rem;
+    }
+
+    .navbar-nav li a {
+
+        font-size: 1.3rem;
+
+    }
+
+}
+
+@media (max-width: 960px) {
+
+    .paragrafosobre {
+
+        font-size: 1rem;
+        margin-right: 0.8rem;
+        line-height: 2rem;
+    }
+
+}
+
+@media (max-width: 886px) {
+
+    .col-md-1 {
+        flex-basis: 19%;
+        max-width: 20%;
+        align-items: center;
+        padding: 1rem;
+
+    }
+
+    .blocofotobanner {
+        width: 100%;
+    }
+
+    .img-fluidheader {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .caixaicone {
+
+        margin-bottom: 0.5rem;
+        padding: 2rem;
+    }
+
+    .iconsdet {
+
+        font-size: 3.5rem;
+
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+        justify-content: center;
+
+    }
+
+    .imagemsobre {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .caixaimagem {
+
+        width: 89%;
+        align-items: center;
+        margin-left: 0px;
+        padding: 2rem;
+        padding-bottom: 1rem;
+        justify-content: center;
+    }
+
+    .caixatexto {
+
+        width: 79%;
+        align-items: center;
+        margin-left: 0px;
+        padding: 2rem;
+        padding-top: 1rem;
+        justify-content: center;
+
+    }
+
+    .paragrafosobre {
+        font-size: 1.5rem;
+        line-height: 2.3rem;
+    }
+
+    .sobreh1 {
+        text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 769px) {
+
+    .hh1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+
+    .caixaicone {
+        margin-bottom: 0px;
+    }
+
+    .navbar-nav {
+        justify-content: center;
+    }
+
+    .img-fluidheader {
+        margin-bottom: 0.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-5 {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .img-fluidheader {
+        width: 80%;
+    }
+
+    .hh1 {
+        font-size: 2.5rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        padding: 1rem;
+    }
+
+    .blocofotobanner {
+        width: 50%;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 701px) {
+
+    .img-fluidheader {
+        margin-bottom: 0rem;
+        width: 87%;
+    }
+
+    .textoheader {
+
+        margin-bottom: 0rem;
+    }
+
+    .mb-4 {
+        margin-bottom: 0rem;
+    }
+}
+
+@media (max-width: 653px) {
+    
+    .caixaheader{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .textoheader{
+        margin-bottom: 0.3rem;
+    }
+    .blocofotobanner{
+        
+        margin-top: 1rem;
+    }
+    .col-md-5 {
+        width: 60%;
+        justify-content: center;
+       
+    }
+    .col-md-6 {
+        width: 75%;
+        justify-content: center;
+    }
+
+    .img-fluidheader {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .hh1 {
+        font-size: 3rem;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        margin-bottom: 0.2rem;
+       
+    }
+
+    .iconsdet {
+
+        font-size: 3.5rem;
+        color: #04BFAD;
+    }
+
+    .h3 {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.25rem;
+}
+
+}
+
+@media (max-width: 576px) {
+    .navbar {
+        display: none;
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .navbar-nav li a {
+       display: none;
+    }
+    
+    .navbar-nav li a:hover {
+       display: none;
+    }
+    .caixaheader1 {
+
+       height: 50%;
+    }
+
+}
