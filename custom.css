@@ -570,7 +570,8 @@ main p {
 @media (max-width: 387px) {
 
     .img-fluid{
-        padding: 0.5rem;
+        width: 98%;
+         padding: 0.2rem;
     }
 
     .imgport{
@@ -580,6 +581,7 @@ main p {
     .m-4 {
         margin: 0.8rem;
     }
+    
 
     .caixaimagem {
       margin-left: 0.5rem;
@@ -587,6 +589,8 @@ main p {
     .hh1 {
         font-size: 2rem;}
 
+        .paragrafosobre {
+            text-align: center;}
 }
 @media (max-width: 358px) {
 
