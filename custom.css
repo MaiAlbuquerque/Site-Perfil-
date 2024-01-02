@@ -13,11 +13,12 @@
 .navbar {
     background-color: #ffffff;
     border-bottom: 1px solid #ccc;
+    justify-content: flex-end
 }
 
 .navbar-nav li a {
     color: #04BFAD;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     padding: 0.5rem 1rem;
@@ -153,6 +154,11 @@ main p {
     color: #ffffff;
     gap: 2rem;
     padding: 1.5rem;
+}
+
+.iconbg {
+    display: none;
+
 }
 
 /*Responsividade*/
@@ -382,27 +388,31 @@ main p {
 }
 
 @media (max-width: 653px) {
-    
-    .caixaheader{
+
+    .caixaheader {
 
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
-    .textoheader{
+
+    .textoheader {
         margin-bottom: 0.3rem;
     }
-    .blocofotobanner{
-        
+
+    .blocofotobanner {
+
         margin-top: 1rem;
     }
+
     .col-md-5 {
         width: 60%;
         justify-content: center;
-       
+
     }
+
     .col-md-6 {
         width: 75%;
         justify-content: center;
@@ -419,7 +429,7 @@ main p {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
         margin-bottom: 0.2rem;
-       
+
     }
 
     .iconsdet {
@@ -431,29 +441,172 @@ main p {
     .h3 {
         font-size: 1rem;
     }
+
     h2 {
         font-size: 1.25rem;
+    }
+
+    .navbar-nav li a {
+
+        font-size: 0.9rem;
+    }
 }
 
-}
+/*Responsividade para celulares*/
 
 @media (max-width: 576px) {
+
     .navbar {
         display: none;
         margin: 0%;
         padding: 0%;
     }
-    
+
     .navbar-nav li a {
-       display: none;
+        display: none;
     }
-    
+
     .navbar-nav li a:hover {
-       display: none;
+        display: none;
     }
+
     .caixaheader1 {
 
-       height: 50%;
+        height: 50%;
+    }
+
+    .iconbg {
+        color: #04BFAD;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        text-align: end;
+        margin-right: 1rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .col-md-5 {
+        width: 73%;
     }
 
 }
+
+@media (max-width: 530px) {
+
+    .col-md-5 {
+        width: 70%;
+        margin-top: 0.1rem;
+    }
+
+    .fotobanner {
+        margin-top: 0.1rem;
+    }
+
+    .img-fluidheader {
+        margin-top: 0rem;
+    }
+
+    .hh1 {
+        margin-left: 0.5rem;
+        margin-right: -0.5rem;
+        margin-bottom: -1.8rem;
+    }
+
+    .col-md-1 {
+
+        max-width: 25%;
+        align-items: center;
+        padding: 0rem;
+    }
+
+    .iconsdet2 {
+
+        font-size: 2rem;
+        gap: 1.5rem;
+        padding: 1.2rem;
+
+    }
+
+}
+
+@media (max-width: 493px) {
+
+    .blocicon {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .p-5 {
+        padding: 1rem;
+    }
+
+    .caixaimagem {
+        padding: 0rem;
+    }
+
+    .textfinal {
+        text-align: center;
+
+    }
+}
+
+@media (max-width: 438px) {
+    
+    .img-fluid{
+        padding: 0.3rem;
+    }
+
+}
+@media (max-width: 409px) {
+    
+    .img-fluid{
+        padding: 0.4rem;
+    }
+
+}
+
+@media (max-width: 387px) {
+
+    .img-fluid{
+        padding: 0.5rem;
+    }
+
+    .imgport{
+        width: 80%;
+    }
+
+    .m-4 {
+        margin: 0.8rem;
+    }
+
+    .caixaimagem {
+      margin-left: 0.5rem;
+    }
+    .hh1 {
+        font-size: 2rem;}
+
+}
+@media (max-width: 358px) {
+
+    .caixaimagem {
+        width: 81%;
+    }
+    .paragrafosobre {
+        text-align: center;
+        margin-right: 3.8rem;
+    }
+
+    .img-fluid{
+        width: 98%;
+         padding: 0.2rem;
+    }
+    .h1sk{
+        font-size: 1.8rem;
+    }
+    .sobreh1{
+        font-size: 1.8rem;
+    }
+}
+
